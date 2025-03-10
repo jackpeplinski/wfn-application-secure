@@ -1,0 +1,25 @@
+{
+  "name": "wfn-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index",
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.1",
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "graphql": "^16.2.0",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^4.3.0"
+  }
+}
